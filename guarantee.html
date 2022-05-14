@@ -59,13 +59,37 @@
       </div>
     </section>
     <!-- REVIEWS -->
-    <!-- <section class="section reviews">
+    <section class="section reviews">
       <div class="container reviews__container">
         <h2 class="reviews__title">Feedback from graduates</h2>
         <article class="reviewer">
           <div class="reviewer__photo-link">
-            <picture class="reviewer__photo"> </picture>
-            <a class="reviewer__link" href=""></a>
+            <picture class="reviewer__photo">
+              <source
+                srcset="
+                  ./img/desktop-tablet-reviewer.jpg    1x,
+                  ./img/desktop-tablet-reviewer@2x.jpg 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/mobile-reviewer.png    1x,
+                  ./img/mobile-reviewer@2x.jpg 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                class="reviewer__photo-img"
+                src="./img/mobile-reviewer.png"
+                alt="Tonya Kucherovskaya"
+              />
+            </picture>
+            <a class="reviewer__link" href="">
+              <svg class="reviewer__icon" width="30" height="30">
+                <use href="./img/vk.svg"></use>
+              </svg>
+            </a>
           </div>
           <div class="reviewer__progress">
             <h3 class="reviewer__name">Tonya Kucherovskaya</h3>
@@ -84,6 +108,6 @@
           </div>
         </article>
       </div>
-    </section> -->
+    </section>
   </body>
 </html>

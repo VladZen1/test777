@@ -81,7 +81,7 @@ img {
 }
 
 .guarantee__list-item::before {
-  content: url(./img/campfire.svg);
+  content: url(../img/campfire.svg);
   position: absolute;
   display: inline-block;
   width: 15px;
@@ -130,19 +130,17 @@ img {
   }
 }
 /* REVIEWS */
-/* .section {
+.section {
   padding-top: 40px;
 }
 .reviews {
   background-color: ;
 }
 .reviews__container {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .reviews__title {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 800;
   font-size: 20px;
   line-height: 130%;
@@ -155,14 +153,48 @@ img {
 .reviewer__photo-link {
 }
 .reviewer__photo {
+  margin: 24px auto;
+}
+.reviewer__photo-img {
+  width: 90px;
+  height: 90px;
+  margin: 24px auto;
+}
+.reviewer__icon {
+  display: block;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .reviewer__link {
+  display: block;
 }
 .reviewer__progress {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .reviewer__name {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #ff6b09;
+  margin-bottom: 16px;
 }
 .reviewer__education {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #b9b9b9;
+  margin-bottom: 16px;
 }
 .reviewer__review {
-} */
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #3d3d3d;
+}
